@@ -4,7 +4,8 @@
 
 2. (Opt.) Adjust the Config.toml file to your liking (located in pose2sim_playground)
 
-3. Run the convertMEED file in the MEED_ConverstionTools directory, placing the following arguments:
+3. Run the convertMEED file in the MEED_ConverstionTools directory, placing the following arguments:  
+
 '''
 python3 convertMEED.py /file/path/to/pose2sim_playground /file/path/to/data_(ActorID) (ActorID)
 '''
