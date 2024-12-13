@@ -6,11 +6,11 @@
 
 3. Run the convertMEED file in the MEED_ConverstionTools directory, placing the following arguments:
 '''
-python3 convertMEED.py /file/path/to/pose2sim_playground /file/path/to/data_(ActorID) (ActorId)
+python3 convertMEED.py /file/path/to/pose2sim_playground /file/path/to/data_(ActorID) (ActorID)
 '''
-Actor ID is the ID for the given MEED actor such as "F01" or "M08"
+Actor ID is the ID for the given MEED actor such as "F01" or "M08". Remove the paranthisis from above. 
 
-The given code only the folder for conversion. For the actual data, please go to the [MEED download site](https://zenodo.org/records/8185369) and place it in the file, adjusting it accordingly so that it matches the schema of data_(ActorID). Inside this folder can be each of the views (left_(ActorID),right(ActorID),front_(ActorID)).
+The given code only the folder for conversion. For the actual data, please go to the [MEED download site](https://zenodo.org/records/8185369) and place it in the file, adjusting it accordingly so that it matches the schema of data_(ActorID). Inside this folder can be each of the views (left_(ActorID),right_(ActorID),front_(ActorID)).
 
 ## Troubleshooting
 If you have trouble at the third step (the code runs, but doesn't convert), try placing quotation marks around each argument, as shown below.
